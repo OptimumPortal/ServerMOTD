@@ -1,0 +1,7 @@
+#ServerMOTD
+joined-before:
+  - "&c%player% JOIN NOW!"
+  - "&6This is &aa random MOTD!"
+  - "&bTESTING.. TESTING"
+never-joined:
+  - "&6Hello there!"
