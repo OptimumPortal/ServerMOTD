@@ -1,7 +1,13 @@
 name: ServerMOTD
-version: 1.0
+version: 1.1
 author: OptimumPortal
 main: me.optimumportal.servermotd.Main
 description: MOTD in Server List
 api-version: 1.17
 prefix: ServerMOTD
+commands:
+  reloadconfig:
+    description: Reloads the ServerMOTD config!
+    usage: /<command>
+    aliases: loadconfig
+    permission: servermotd.reloadconfig

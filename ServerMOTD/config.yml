@@ -1,7 +1,11 @@
 #ServerMOTD
 joined-before:
-  - "&c%player% JOIN NOW!"
-  - "&6This is &aa random MOTD!"
-  - "&bTESTING.. TESTING"
+  - "&6Hello, &2%player%!"
+  - "&6You can have multiple MOTDs here! They will be randomised!"
 never-joined:
-  - "&6Hello there!"
+  - "&bI see you have not joined before!"
+  - "&dChange me in config.yml!"
+not-whitelisted:
+  - "&c&lYou aren't whitelisted. Sorry! "
+banned: 
+  - "&c&lYou have been &nbanned&r&c&l"
